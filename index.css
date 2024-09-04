@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 62px;
+    padding: 12px 80px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+
+.logo img{
+    width: 18.68px;
+    height: 22px;
+}
+
+.logo p{
+    font-family:"Kanit", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.menu {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.menu a {
+    color: #081E34;
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+}
+
+#id1 {
+    background-color: rgba(8, 30, 52, 0.12);
+    padding: 10px;
+    border-radius: 20px;
+}
+
