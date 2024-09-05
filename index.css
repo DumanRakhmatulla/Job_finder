@@ -2,6 +2,8 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: rgba(241, 241, 241, 1);
+    ;
 }
 
 .header {
@@ -117,8 +119,7 @@ body{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    margin: 40px 60px;
-    /* gap: 40px; */
+    margin: 40px 0px;
 }
 
 #how-description {
@@ -127,6 +128,7 @@ body{
     font-size: 12px;
     line-height: 50px;
     text-align: center;
+    margin: 0;
 }
 
 #how-title {
@@ -135,13 +137,12 @@ body{
     font-size: 54px;
     line-height: 56px;
     text-align: center;
-    margin-top: 0;
+    margin: 0 0 28px 0;
 }
 
 .frame div {
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     align-items: flex-start;
 }
 
@@ -166,6 +167,86 @@ body{
     line-height: 22px;
     color: rgba(0, 0, 0, 1);
     margin: 0;
+}
+
+.inputfield {
+    padding: 50px 80px;
+    gap: 128px;
+}
+
+.inputfield .title {
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 64px;
+    margin: 0 0 34px 0;
+}
+
+.inputfield .i-description {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: rgba(0, 0, 0, 1);
+}
+
+#sear {
+    height: 24px;
+    width: 24px;
+    opacity: 50%;
+}
+
+.frame1 {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+
+.frame1 input {
+    flex: 1;    
+    height: 50px;
+    border-radius: 12px;
+    border: none;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    color: rgba(0, 0, 0, 1);
+    opacity: 20%;
+}
+.frame1 input:focus {
+    border: none;
+    outline: none;
+}
+
+.frame1 div{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    gap: 10px;
+    padding-left: 10px;
+    align-items: center;
+    background-color: red;
+    width: 619px;
+    height: 50px;
+    border-radius: 12px;
+    border: 1px solid rgba(225, 222, 231, 1);
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.frame1 button {
+    width: 106px;
+    height: 50px;
+    border-radius: 100px;
+    gap: 10 px;
+    background-color: rgba(113, 47, 255, 1);
+    border: none;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    align-items: center;
+    color: rgba(255, 255, 255, 1);
 }
 
 
